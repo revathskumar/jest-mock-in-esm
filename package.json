@@ -1,0 +1,16 @@
+{
+  "name": "jest-mock-in-esm",
+  "version": "1.0.0",
+  "description": "## Usage",
+  "main": "utils.js",
+  "type": "module",
+  "scripts": {
+    "test": "node --experimental-vm-modules ./node_modules/jest/bin/jest.js"
+  },
+  "keywords": [],
+  "author": "Revath S Kumar <rsk@revathskumar.com> (http://blog.revathskumar.com/)",
+  "license": "MIT",
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}
